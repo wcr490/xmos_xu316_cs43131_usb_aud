@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "56822943-77db-41a4-96a3-a10f88783b02")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 67.31 91.44)
+		(size 24.13 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "523d2026-b519-4a60-8ddc-fd4a68efabbc")
+		(property "Sheetname" "cs43131"
+			(at 67.31 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cs43131.kicad_sch"
+			(at 67.31 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmos_xu316"
+				(path "/56822943-77db-41a4-96a3-a10f88783b02"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 71.12)
+		(size 24.13 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e513c5fd-5757-445c-b030-63647e497b98")
+		(property "Sheetname" "power"
+			(at 67.31 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 67.31 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmos_xu316"
+				(path "/56822943-77db-41a4-96a3-a10f88783b02"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 55.88)
+		(size 24.13 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f602d29d-5b8b-476b-882c-2cadecf89fa6")
+		(property "Sheetname" "xu316"
+			(at 67.31 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "xu316.kicad_sch"
+			(at 67.31 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmos_xu316"
+				(path "/56822943-77db-41a4-96a3-a10f88783b02"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
