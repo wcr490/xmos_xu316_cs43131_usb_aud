@@ -37,3 +37,11 @@
 * TI PCA9306DCUR
 * TI SN74AVC4T774PWR
 * common values of resistor and capacitor
+
+## Pictures
+
+![audio_settings](https://github.com/user-attachments/assets/eeb48e43-d560-43f8-a122-932cf3b8a2dc)
+![20260408_190845](https://github.com/user-attachments/assets/8dfcfa9a-3adc-466c-8341-06d167435b70)
+
+
+
