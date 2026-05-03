@@ -1,13 +1,5 @@
 # xmos_xu316_cs43131_usb_aud
 
-> [!WARNING]  
-> Do not order pcb directly with my current kicad project!
-
-## PCB errors to fix
-
-* refer to xu316 datasheet, redraw the oscillator circuit correctly, current version did not include the 1M resistor between XTI and XTO
-* connect the mclk from dac to X0D11 and X1D11, currently the mclk is connected to a wrong pin, X1D09
-
 ## Firmware Compilation Steps
 
 * install xmos xtc tools vscode extension

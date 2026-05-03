@@ -4689,6 +4689,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 139.7) (xy 166.37 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa36df9-5c27-4780-8ecf-0fc770c7e962")
+	)
+	(wire
+		(pts
 			(xy 147.32 154.94) (xy 147.32 158.75)
 		)
 		(stroke
@@ -4736,6 +4746,16 @@
 			(type default)
 		)
 		(uuid "13128e4b-91d1-4190-9c9f-71cac1e640c3")
+	)
+	(wire
+		(pts
+			(xy 53.34 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1323ec99-6696-423b-9daf-4850b825ce09")
 	)
 	(wire
 		(pts
@@ -5369,16 +5389,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 64.77 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f96620b-4521-4bd8-8e8e-706c6c4844e9")
-	)
-	(wire
-		(pts
 			(xy 191.77 115.57) (xy 191.77 135.89)
 		)
 		(stroke
@@ -5489,16 +5499,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 64.77 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "943acbf2-f8ee-43ec-a1ee-faf38758b3ad")
-	)
-	(wire
-		(pts
 			(xy 114.3 81.28) (xy 110.49 81.28)
 		)
 		(stroke
@@ -5569,6 +5569,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 139.7) (xy 147.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed50803-a969-4c78-a76a-f8a1c8c5a7c6")
+	)
+	(wire
+		(pts
 			(xy 228.6 50.8) (xy 248.92 50.8)
 		)
 		(stroke
@@ -5576,6 +5586,16 @@
 			(type default)
 		)
 		(uuid "9fa9a049-5e65-41f1-9dd8-6f6c9302dfc5")
+	)
+	(wire
+		(pts
+			(xy 62.23 81.28) (xy 64.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08b672d-aed6-40ea-af03-d476b2919200")
 	)
 	(wire
 		(pts
@@ -5849,6 +5869,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 139.7) (xy 147.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91513d4-663d-45ad-8b57-096f304aa24b")
+	)
+	(wire
+		(pts
 			(xy 121.92 111.76) (xy 110.49 111.76)
 		)
 		(stroke
@@ -5926,6 +5956,16 @@
 			(type default)
 		)
 		(uuid "d8a127a3-4512-4e9b-8efa-3640d02aaefb")
+	)
+	(wire
+		(pts
+			(xy 161.29 139.7) (xy 166.37 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c8bf67-ecc8-4537-8d2f-d94a7e19ec01")
 	)
 	(wire
 		(pts
@@ -6727,7 +6767,7 @@
 		)
 		(uuid "83924afa-06bb-4702-bd2b-404330044885")
 	)
-	(label "X1D11"
+	(label "X1D09"
 		(at 116.84 140.97 0)
 		(effects
 			(font
@@ -7027,6 +7067,16 @@
 		)
 		(uuid "fab4d64e-6cb4-4968-be6d-4d332b23bb7d")
 	)
+	(label "X1D09"
+		(at 62.23 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff19301a-9955-453f-b44d-1092faeefa6f")
+	)
 	(global_label "MCU_SCLK"
 		(shape input)
 		(at 91.44 140.97 180)
@@ -7183,7 +7233,7 @@
 	)
 	(global_label "MCU_MCLK"
 		(shape input)
-		(at 53.34 81.28 180)
+		(at 53.34 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7193,7 +7243,7 @@
 		)
 		(uuid "a9c677af-d172-4f97-b273-285f449a1229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.3158 81.28 0)
+			(at 40.3158 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,6 +10114,74 @@
 			(project "xmos_xu316"
 				(path "/56822943-77db-41a4-96a3-a10f88783b02/f602d29d-5b8b-476b-882c-2cadecf89fa6"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a7d026-3a34-4b2e-8962-f57375459821")
+		(property "Reference" "R19"
+			(at 157.48 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 157.48 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0a7e0f9-0f07-4c9a-ae9c-92564cb68b30")
+		)
+		(pin "1"
+			(uuid "5429b4f8-03d1-4a0c-9426-5a030afc5567")
+		)
+		(instances
+			(project "xmos_xu316"
+				(path "/56822943-77db-41a4-96a3-a10f88783b02/f602d29d-5b8b-476b-882c-2cadecf89fa6"
+					(reference "R19")
 					(unit 1)
 				)
 			)
