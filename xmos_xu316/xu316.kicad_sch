@@ -4594,10 +4594,10 @@
 		(uuid "a3d15423-5152-437b-b6e4-de6dc50736da")
 	)
 	(junction
-		(at 147.32 154.94)
+		(at 142.24 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9172308-c04d-4fa4-92f5-a6889a607dd9")
+		(uuid "b931b04d-3228-4428-84e0-648d2a09ceee")
 	)
 	(no_connect
 		(at 228.6 73.66)
@@ -4689,6 +4689,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 154.94) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b958cae-0532-4e19-aecb-8da1aec29b0e")
+	)
+	(wire
+		(pts
 			(xy 166.37 139.7) (xy 166.37 154.94)
 		)
 		(stroke
@@ -4696,16 +4706,6 @@
 			(type default)
 		)
 		(uuid "0fa36df9-5c27-4780-8ecf-0fc770c7e962")
-	)
-	(wire
-		(pts
-			(xy 147.32 154.94) (xy 147.32 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10094850-8490-4683-ae25-872d981401c6")
 	)
 	(wire
 		(pts
@@ -4769,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 154.94) (xy 144.78 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d85d6d-4ceb-4112-a2ea-16bb971d2e01")
+	)
+	(wire
+		(pts
 			(xy 166.37 154.94) (xy 161.29 154.94)
 		)
 		(stroke
@@ -4826,6 +4836,16 @@
 			(type default)
 		)
 		(uuid "1ddb7f9a-dd18-4de7-b3e7-87bd34f93b62")
+	)
+	(wire
+		(pts
+			(xy 152.4 154.94) (xy 153.67 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5a7b98-1361-4482-8d6f-82dcb7249f9e")
 	)
 	(wire
 		(pts
@@ -4939,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 166.37) (xy 147.32 167.64)
+			(xy 142.24 166.37) (xy 142.24 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5569,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 139.7) (xy 147.32 154.94)
+			(xy 142.24 139.7) (xy 142.24 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5596,16 +5616,6 @@
 			(type default)
 		)
 		(uuid "a08b672d-aed6-40ea-af03-d476b2919200")
-	)
-	(wire
-		(pts
-			(xy 147.32 154.94) (xy 153.67 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09f3cc1-6d2f-404b-a4e0-c5538b393484")
 	)
 	(wire
 		(pts
@@ -5829,7 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 167.64) (xy 157.48 167.64)
+			(xy 142.24 167.64) (xy 157.48 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +5879,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 139.7) (xy 147.32 139.7)
+			(xy 153.67 139.7) (xy 142.24 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5916,16 +5926,6 @@
 			(type default)
 		)
 		(uuid "ce5ec069-9e34-4fad-abc6-c5953ddf2dca")
-	)
-	(wire
-		(pts
-			(xy 144.78 154.94) (xy 147.32 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1118760-eabf-4914-947c-b0fcfc5b929f")
 	)
 	(wire
 		(pts
@@ -7410,7 +7410,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 162.56 0)
+		(at 142.24 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7419,7 +7419,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d67c620-2522-4392-baa8-aac9cd0e22ec")
 		(property "Reference" "C1"
-			(at 151.13 161.2899 0)
+			(at 146.05 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7428,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 151.13 163.8299 0)
+			(at 146.05 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7437,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 148.2852 166.37 0)
+			(at 143.2052 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,7 +7446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 162.56 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,7 +7455,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 162.56 0)
+			(at 142.24 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10314,6 +10314,74 @@
 			(project ""
 				(path "/56822943-77db-41a4-96a3-a10f88783b02/f602d29d-5b8b-476b-882c-2cadecf89fa6"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1a0290-6506-4cc0-8184-2f2ed06a83f6")
+		(property "Reference" "R20"
+			(at 148.59 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 148.59 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c01f2f68-ea22-416a-aab5-b43244f24086")
+		)
+		(pin "1"
+			(uuid "bdeae5d9-ea2c-4b08-ad1e-2779f5b6dacc")
+		)
+		(instances
+			(project "xmos_xu316"
+				(path "/56822943-77db-41a4-96a3-a10f88783b02/f602d29d-5b8b-476b-882c-2cadecf89fa6"
+					(reference "R20")
 					(unit 1)
 				)
 			)
